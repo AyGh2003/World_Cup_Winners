@@ -16,7 +16,7 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 
 # Database Configuration
-DATABASE_URL = "mysql://root:Aymeng123*@localhost:3306/world_cup"
+DATABASE_URL = "mysql://root:password@localhost:3306/world_cup" 
 
 database = databases.Database(DATABASE_URL)
 engine = create_engine(DATABASE_URL)
